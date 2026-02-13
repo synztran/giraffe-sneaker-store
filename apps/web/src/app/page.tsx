@@ -64,10 +64,10 @@ export default function Home() {
 						<div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent"></div>
 						<div className="absolute inset-0 flex flex-col justify-center px-6 lg:px-24">
 							<div className="max-w-2xl text-white border-l-4 border-accent pl-8">
-								<p className="text-xs font-extrabold uppercase tracking-[0.5em] mb-4 drop-shadow-md text-accent">
+								<p className="text-[12px] font-extrabold uppercase tracking-[0.5em] mb-4 drop-shadow-md text-accent">
 									Stand Tall. Walk Bold.
 								</p>
-								<h1 className="text-6xl lg:text-8xl font-black mb-8 leading-[0.9] uppercase drop-shadow-xl">
+								<h1 className="text-[60px] lg:text-[96px] font-black mb-8 leading-[0.9] uppercase drop-shadow-xl">
 									Giraffe <br />{" "}
 									<span className="text-white">
 										Heritage.
@@ -76,12 +76,12 @@ export default function Home() {
 								<div className="flex gap-4">
 									<Link
 										href="/products"
-										className="bg-accent text-black px-12 py-5 text-xs font-black uppercase tracking-[0.2em] hover:bg-white transition-all">
+										className="bg-accent text-black px-12 py-5 text-[12px] font-black uppercase tracking-[0.2em] hover:bg-white transition-all">
 										Mua ngay
 									</Link>
 									<Link
 										href="/products"
-										className="bg-transparent text-white border-2 border-white px-12 py-5 text-xs font-black uppercase tracking-[0.2em] hover:bg-accent hover:border-accent hover:text-black transition-all">
+										className="bg-transparent text-white border-2 border-white px-12 py-5 text-[12px] font-black uppercase tracking-[0.2em] hover:bg-accent hover:border-accent hover:text-black transition-all">
 										Bộ sưu tập
 									</Link>
 								</div>
@@ -144,7 +144,7 @@ export default function Home() {
 				<section className="py-20 px-6 max-w-7xl mx-auto">
 					<div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-4">
 						<div className="text-center md:text-left">
-							<h2 className="text-3xl font-black uppercase tracking-tighter mb-2">
+							<h2 className="text-[30px] font-black uppercase tracking-tighter mb-2">
 								Sản phẩm nổi bật
 							</h2>
 							<div className="h-1.5 w-20 bg-accent mx-auto md:mx-0"></div>
@@ -186,10 +186,10 @@ export default function Home() {
 									<p className="text-gray-400 text-[9px] font-extrabold uppercase tracking-[0.2em] mb-2">
 										{product.brand}
 									</p>
-									<h3 className="font-bold text-xs mb-3 uppercase h-10 line-clamp-2 px-2 tracking-tight">
+									<h3 className="font-bold text-[12px] mb-3 uppercase h-10 line-clamp-2 px-2 tracking-tight">
 										{product.name}
 									</h3>
-									<p className="text-black font-black text-lg">
+									<p className="text-black font-black text-[18px]">
 										{product.price}
 									</p>
 								</div>
@@ -203,7 +203,7 @@ export default function Home() {
 					<div className="max-w-7xl mx-auto">
 						<div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-4">
 							<div className="text-center md:text-left">
-								<h2 className="text-3xl font-black uppercase tracking-tighter mb-2">
+								<h2 className="text-[30px] font-black uppercase tracking-tighter mb-2">
 									Tin tức Sneaker
 								</h2>
 								<div className="h-1.5 w-20 bg-accent mx-auto md:mx-0"></div>
@@ -226,11 +226,11 @@ export default function Home() {
 									<p className="text-accent text-[9px] font-black uppercase tracking-[0.3em] mb-3">
 										Sự kiện độc quyền
 									</p>
-									<h3 className="text-lg font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
+									<h3 className="text-[18px] font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
 										Đón chờ bộ sưu tập đặc biệt tại Giraffe
 										Sneaker
 									</h3>
-									<p className="text-gray-500 text-xs font-medium mb-6 line-clamp-2 leading-relaxed">
+									<p className="text-gray-500 text-[12px] font-medium mb-6 line-clamp-2 leading-relaxed">
 										Khám phá những mẫu giày độc bản sắp có
 										mặt tại hệ thống cửa hàng Giraffe
 										Sneaker trên toàn quốc...
@@ -270,10 +270,10 @@ export default function Home() {
 									<p className="text-accent text-[9px] font-black uppercase tracking-[0.3em] mb-3">
 										Cẩm nang
 									</p>
-									<h3 className="text-lg font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
+									<h3 className="text-[18px] font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
 										Cách phân biệt giày thật - giả năm 2024
 									</h3>
-									<p className="text-gray-500 text-xs font-medium mb-6 line-clamp-2 leading-relaxed">
+									<p className="text-gray-500 text-[12px] font-medium mb-6 line-clamp-2 leading-relaxed">
 										Cùng các chuyên gia tại Giraffe Sneaker
 										cập nhật những chi tiết mới nhất để nhận
 										biết sản phẩm chính hãng...
@@ -313,10 +313,10 @@ export default function Home() {
 									<p className="text-accent text-[9px] font-black uppercase tracking-[0.3em] mb-3">
 										Streetwear Style
 									</p>
-									<h3 className="text-lg font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
+									<h3 className="text-[18px] font-black mb-4 uppercase leading-tight group-hover:text-accent transition-colors">
 										Phối đồ cùng Sneaker cho mùa lễ hội
 									</h3>
-									<p className="text-gray-500 text-xs font-medium mb-6 line-clamp-2 leading-relaxed">
+									<p className="text-gray-500 text-[12px] font-medium mb-6 line-clamp-2 leading-relaxed">
 										Những gợi ý mix-match từ các sneakerhead
 										hàng đầu Việt Nam dành cho bạn trong mùa
 										này...
@@ -350,7 +350,7 @@ export default function Home() {
 						<div className="flex justify-center mb-6">
 							<Bell className="text-accent w-14 h-14" />
 						</div>
-						<h2 className="text-4xl font-black uppercase mb-6 tracking-tighter">
+						<h2 className="text-[36px] font-black uppercase mb-6 tracking-tighter">
 							Đăng ký nhận tin từ Giraffe
 						</h2>
 						<p className="text-gray-500 text-[11px] font-extrabold uppercase tracking-[0.3em] mb-10">
